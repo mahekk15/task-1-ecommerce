@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shopiee </title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+h2{
+  text-align: left;
+}
+header{
+  border: 10px solid rgb(199, 199, 128);
+    border-radius: 6px;
+    width: 99%;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    overflow:visible;
+    position: fixed;
+    background-color: whitesmoke;
+}
+header ul{
+   
+   display: flex;
+   list-style-type: none;
+   font-weight: bold;
+}
+header li{
+   padding-left: 20px;
+  
+}
+.tr{
+    padding-left: 15px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.s{
+    display: flex;
+    border: 2px solid rgb(250, 238, 238);
+    align-items: center;
+max-height: 35px;
+background-color: rgb(202, 197, 197);
+}
+.s img{
+    padding-left: 5px;
+    border: 10px solid  rgb(202, 197, 197);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.s input{
+    padding-left: 6px;
+    width: 550px;
+    height: 45px;
+    border: none;
+    background-color: rgb(202, 197, 197);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.pro , .wi, .bg{
+    margin-top: 0;
+    margin-left: 10px;
+    padding-left: 15px;
+} 
+.off{
+    text-align: center;
+    height: 85px;
+    width: 100%;
+}
+.ab{
+  margin-left: 45px;
+  display: flex;
+  flex-direction: column;
+}
+.a{
+  padding: 5px;
+  margin-top: 35px;
+  width: 180px;
+  height: auto;
+  background-color: whitesmoke;
+}
+.b {
+  padding: 15px;
+  width:255px;
+  height: 580px;
+  background-color:  whitesmoke;
+}
+ul{
+  list-style-type: none;
+  padding: 5px;
+}
+li{
+  padding: 10px;
+}
+
+.a img{
+  border-radius: 50%;
+}
+.alpha{
+  display: flex;
+  flex-direction: row;
+}
+.c{
+  margin-left: 5px;
+  padding:40px;
+  max-height: fit-content;
+  width: 80%;
+  background-color: whitesmoke;
+}
+.c1 input{
+  width: 195px;
+  height: 35px;
+  
+}
+.pro a, .bg a{
+    text-decoration: none;
+    color: black;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="l">
+          <img src="ms.jpg" alt="error" height="60px" width="80px" />
+        </div>
+        <ul>
+          <li>MEN</li>&nbsp;&nbsp;
+          <li>WOMEN</li>&nbsp;&nbsp;
+          <li>KIDS</li>&nbsp;&nbsp;
+          <li>HOME AND LIVING</li>&nbsp;&nbsp;
+          <li>ETC...</li>&nbsp;&nbsp;
+        </ul> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="s">
+          <img id="s1" src="search.png" alt="error" height="26px" width="26px" />
+          <input
+            type="text"
+            placeholder="Search for product , brand and more..."
+          />
+        </div>
+        <div class="tr">
+          <div class="pro">
+            <a href="profile.html"><img src="profile.jpg" alt="error" height="30px" width="30px" />
+              <p >My Profile</p></a>
+          </div>
+          <div class="wi">
+            <img src="wish.png" alt="error" height="30px" width="30px" />
+            <p>Wishlist</p>
+          </div>
+          <div class="bg">
+            <a href="cart.html">
+              <img src="bagg.jpg" alt="error" height="30px" width="30px" />
+            <p>Bag</p>
+            </a>
+          </div>
+        </div>
+    </div>
+    </header>
+    <div class="off">
+      <p>FLAT 75% OFF on your 1 <sup>st</sup> purchase  </p>
+      </div>
+      <div class="alpha">
+        <div class="ab">
+          <div class="a">
+            <img src="userr.png" alt="error" height="40px" width="auto">
+            <label for="img">Hello User</label>
+          </div>
+          <br><br>
+
+
+          <div class="b">
+            <ul>
+              <li> <img src="my order.jpg"  alt="error" height="35px" width="auto">&nbsp;&nbsp;
+                 My Orders</li> <br>
+              <li><img src="account.png" alt="error" height="35px" width="auto">&nbsp;&nbsp;<b>ACCOUNT SETTING</b></li>
+              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Profile Information</li>
+              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PAN Card information</li> <br>
+              <li> <img src="payment.jpg" alt="error" height="35px" width="auto">&nbsp;&nbsp;<b>PAYMENTS</b></li>
+              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gift Cards</li>
+              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saved UPI</li><br> 
+              <li><img src="stufff.jpg" alt="error" height="35px" width="auto" border-width="50%">&nbsp;&nbsp;<b>MY STUFF</b></li>
+              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Coupans</li>
+              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Rating</li>
+              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Wishlists</li>
+            </ul>
+          </div>
+        </div>
+        <div class="c">
+          <img src="offer.webp" alt="error" height="200px" width="auto"> <br><br>
+          <h2>User Information</h2> <br> <br><br>
+         <div class="c1">
+          <label for="name">User Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input  type="text" id="sm" name="user" required> <br> <br><br>
+          <label for="email">Email Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="email" name="email" id="sm" required> <br><br><br>
+          <label for="mn">Contact Number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="number" name="mn" id="sm" > <br><br><br>
+         </div>
+          <label for="gen">Your Gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+          <input type="radio" id="gen" name="gen"> Male
+          <input type="radio" id="gen" name="gen"> Female <br><br>
+          <p><b>FAQs</b> <br></p><br>
+          <p><b>What happens when I update my email address (or mobile number)?</b> <br> 
+            Your login email id (or mobile number) changes, likewise. <br> You'll receive all your account related communication on your updated email address (or mobile number).
+            <br><br> 
+           <b> When will my shopiee account be updated with the new email address (or mobile number)?</b> <br> 
+           It happens as soon as you confirm the verification code sent to your email (or mobile) and save the changes. <br> <br> 
+           <b>What happens to my existing shopiee account when I update my email address (or mobile number)?</b> <br>
+           Updating your email address (or mobile number) doesn't invalidate your account. Your account remains fully functional. You'll continue seeing your Order history, saved information and personal details. <br><br> 
+           <b>Does my Seller account get affected when I update my email address?</b> <br>
+           "My Shopiee" has a 'single sign-on' policy. Any changes will reflect in your Seller account also. <br> <br> <br> </p>
+           <p style="color: rgb(10, 191, 34);"><b><b>Deactivate Account</b></b></p>
+          </div>
+      </div>
+    </body>
+</html>
